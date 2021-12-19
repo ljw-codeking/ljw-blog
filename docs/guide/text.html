@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .bgimg-1,
+    .bgimg-2,
+    .bgimg-3 {
+      background-attachment: fixed;
+      background-position: center;
+      height: 100vh;
+    }
+
+    .bgimg-1 {
+      background-image: url("https://genesis-cdn.faradayfuturecn.com/product/03_performance/01.jpg");
+    }
+
+    .bgimg-2 {
+      background-image: url("https://genesis-cdn.faradayfuturecn.com/product/03_performance/03.jpg");
+      position: sticky;
+      top: 100px;
+      height: 1000px;
+      background-color: pink;
+    }
+
+    .bgimg-3 {
+      background-image: url("https://genesis-cdn.faradayfuturecn.com/product/03_performance/03.jpg");
+    }
+  </style>
+
+  <script>
+    /* 
+    思路
+    then、catch 是订阅
+    resolve、reject 是发布
+    */
+
+
+    class Promise {
+      PADDING = 'padding';
+      FULFILLED = 'fulfilled';
+      REJECTED = 'rejected';
+      status = PADDING; // padding: 初始化状态 fulfilled: 操作成功 rejected：操作失败
+      resultValue = '';
+
+      constructor(fn) {
+        if (!fn || typeof fn !== 'function') throw new Errow('Promise resolver undefined is not a function')
+        fn(this.resolve.bind(this), this.reject.bind(this))
+      }
+    }
+
+    Promise.prototype.resolve = function (val) {
+      // 进行阻断执行
+      if (this.status !== PADDING) return
+
+      this.resultValue = val
+      this.status = FULFILLED
+    }
+
+    Promise.prototype.reject = function (val) {
+      if (this.status !== PADDING) return
+
+      this.resultValue = val
+      this.status = REJECTED
+    }
+
+    Promise.prototype.all = function () { }
+
+    Promise.prototype.then = function () {
+
+      return this
+    }
+
+    Promise.prototype.catch = function () {
+
+      return this
+    }
+
+    Promise.prototype.race = function () { }
+
+    new Promise((resolve, reject) => { resolve() })
+  </script>
+</head>
+
+<body>
+
+  <div class="bgimg-1">23q45789000000000000000000000000000000000000000000000000000-</div>
+  <div class="bgimg-2">
+    23q4578900000000000000000000000000000000000000000000000000023q4578900000000000000000000000000000000000000000000000000023q45789000000000000000000000000000000000000000000000000000
+  </div>
+  <div class="bgimg-3">
+    dsfffffffffffffffffffffffffffffffffffffffffffdsfffffffffffffffffffffffffffffffffffffffffffdsfffffffffffffffffffffffffffffffffffffffffff
+  </div>
+
+</body>
+
+</html>
