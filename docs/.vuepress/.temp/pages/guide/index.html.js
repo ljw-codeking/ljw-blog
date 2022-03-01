@@ -13,7 +13,16 @@ export const data = {
       "children": []
     }
   ],
-  "git": {},
+  "git": {
+    "updatedTime": 1644825719000,
+    "contributors": [
+      {
+        "name": "hx",
+        "email": "903320779@qq.com",
+        "commits": 1
+      }
+    ]
+  },
   "filePathRelative": "guide/README.md"
 }
 

@@ -1,46 +1,49 @@
 <template><h3 id="变量数据类型及检测-基本-引用" tabindex="-1"><a class="header-anchor" href="#变量数据类型及检测-基本-引用" aria-hidden="true">#</a> 变量数据类型及检测: 基本 + 引用</h3>
 <ul>
-<li>String</li>
-<li>Boolean</li>
-<li>Number</li>
-<li>Null</li>
+<li>string</li>
+<li>boolean</li>
+<li>number</li>
+<li>null</li>
 <li>undefined</li>
-<li>Symbol</li>
-<li>BigInt</li>
-<li>Object</li>
+<li>object</li>
+<li>array</li>
 </ul>
 <h3 id="运算符-算术-条件-逻辑-位-短路-隐式转换等" tabindex="-1"><a class="header-anchor" href="#运算符-算术-条件-逻辑-位-短路-隐式转换等" aria-hidden="true">#</a> 运算符: 算术 + 条件 + 逻辑 + 位 + 短路, 隐式转换等</h3>
 <ul>
-<li>/</li>
-<li>%</li>
-<li>^</li>
-<li>&amp;</li>
-<li>+= -= *= /= %=</li>
-<li>&gt;</li>
-<li>&lt;</li>
-<li>&gt;=</li>
-<li>&lt;=</li>
-<li>=</li>
-<li>==</li>
-<li>===</li>
-<li>&amp;&amp;</li>
-<li>||</li>
-<li>**</li>
-<li>? :</li>
-<li>?.</li>
-<li>??</li>
-<li>100_000</li>
-<li>for</li>
-<li>for in</li>
-<li>for of</li>
-<li>if</li>
-<li>while</li>
-<li>switch</li>
-<li>cash</li>
-<li>brank</li>
-<li>return</li>
-<li>instanceof</li>
-<li>typeof</li>
+<li></li>
+</ul>
+<ul>
+<li></li>
+</ul>
+<ul>
+<li>
+<h1 id="" tabindex="-1"><a class="header-anchor" href="#" aria-hidden="true">#</a> /
+%
++= -= *= /= %=
+&gt;
+&lt;
+&gt;=
+&lt;=</h1>
+==
+===
+&amp;&amp;
+||
+**
+? :
+?.
+??
+100_000
+for
+for in
+for of
+if
+while
+switch
+cash
+brank
+return
+instanceof
+typeof</li>
 </ul>
 <h3 id="原型链" tabindex="-1"><a class="header-anchor" href="#原型链" aria-hidden="true">#</a> 原型链</h3>
 <blockquote>
@@ -82,7 +85,6 @@ for of
 Reflect 顶级对象
 async await
 import export
-try、catch、finally
 变量解构
 等等</p>
 <h3 id="数组的操作方法" tabindex="-1"><a class="header-anchor" href="#数组的操作方法" aria-hidden="true">#</a> 数组的操作方法</h3>
@@ -118,8 +120,7 @@ Object.assign() 合并对象 注意: 这是浅拷贝</p>
 .call 改变 this 指向
 .apply
 .bind 改变 this 指向 并返回一个新函数
-手写 call 函数
-new Function</p>
+手写 call 函数</p>
 <div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code><span class="token doc-comment comment">/**
  * 移花接木
  * 将传递过来的对象接收

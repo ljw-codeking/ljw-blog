@@ -1,7 +1,7 @@
 export const data = {
-  "key": "v-0d3baaad",
-  "path": "/articles/js/",
-  "title": "",
+  "key": "v-e5218278",
+  "path": "/guide/js.html",
+  "title": "/%+= -= *= /= %=><>=<=",
   "lang": "en-US",
   "frontmatter": {},
   "excerpt": "",
@@ -74,16 +74,16 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1644825719000,
+    "updatedTime": 1639880135000,
     "contributors": [
       {
-        "name": "hx",
-        "email": "903320779@qq.com",
+        "name": "🏎",
+        "email": "oncwnuH-N9yj9bE86QwViOD3xRKw@git.weixin.qq.com",
         "commits": 1
       }
     ]
   },
-  "filePathRelative": "articles/js/README.md"
+  "filePathRelative": "guide/js.md"
 }
 
 if (import.meta.webpackHot) {

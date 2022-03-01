@@ -1,9 +1,15 @@
-#### CSS 选择器( 三大特性 ) ?
+### CSS 选择器( 三大特性 ) ?
+
+> 权重等级 !important > style > id > class > tag
 
 - Id 选择器
 - 类名选择器
 - 标签选择器
 - 伪类选择器 列如：last-child nth-child after before
+
+### 重排（reflow） 和 重绘（repaint） 的理解
+
+以我的理解就是，顾名思意，重排就是重新排版页面，重绘就是重新绘制元素，那么什么时候会重新排版页面，很好理解，当然是页面结构改动的时候，比如说什么 margin，width，height。
 
 ### BFC 机制 （暂时理解不了）
 
@@ -20,13 +26,13 @@ BFC 是英文缩写，翻译为“块级格式化上下文”
 
 ### CSS 模块化开发(封装); SCSS 和 LESS 的使用
 
-\\ 使静态语言拥有动态语言的能力 变量 函数等
+使静态语言拥有动态语言的能力 变量 函数等
 目前 css 本身也拥有变量能力
 通常将常用的变量以及类名通过全局文件封装起来
 
 ### 屏幕适配 以及 页面自适应
 
-\\ 关键字 媒体查询 @medio
+关键字 媒体查询 @medio
 你可以通过不同媒体填入不同的条件，从而改变不同的样式
 比如说 screen 屏幕 print 打印机 all 所有设备
 
@@ -51,7 +57,7 @@ BFC 是英文缩写，翻译为“块级格式化上下文”
 | rotate | 定义旋转 |
 | skew | 定义倾斜 |
 
-trasition 过渡效果
+trasition 过渡效果 第一个参数定义什么过渡 all 或者 width 等等
 trasition: 1s easy;
 
 ### 布局
@@ -66,6 +72,20 @@ trasition: 1s easy;
 
 background-attachment
 
+| 值      | 描述                                                                      |
+| ------- | ------------------------------------------------------------------------- |
+| scroll  | 背景图片随着页面的滚动而滚动，这是默认的。                                |
+| fixed   | 背景图片不会随着页面的滚动而滚动。                                        |
+| local   | 背景图片会随着元素内容的滚动而滚动。                                      |
+| initial | 设置该属性的默认值。 阅读关于 initial 内容                                |
+| inherit | 指定 background-attachment 的设置应该从父元素继承。 阅读关于 inherit 内容 |
+
 ### 定位补充知识
 
-position： sticky 粘性布局
+position： sticky; 粘性布局 兼容性不是特别好
+
+### 其余属性
+```css
+box-shadow: offset-x offset-y 阴影的模糊半径 阴影扩展半径;
+backdrop-filter: blur(); // 滤镜
+```

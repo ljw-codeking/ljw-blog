@@ -1,6 +1,6 @@
 export const data = {
-  "key": "v-cb81a4bc",
-  "path": "/articles/vue/",
+  "key": "v-7911f002",
+  "path": "/guide/vue.html",
   "title": "",
   "lang": "en-US",
   "frontmatter": {},
@@ -56,16 +56,16 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1644825719000,
+    "updatedTime": 1639880135000,
     "contributors": [
       {
-        "name": "hx",
-        "email": "903320779@qq.com",
+        "name": "🏎",
+        "email": "oncwnuH-N9yj9bE86QwViOD3xRKw@git.weixin.qq.com",
         "commits": 1
       }
     ]
   },
-  "filePathRelative": "articles/vue/README.md"
+  "filePathRelative": "guide/vue.md"
 }
 
 if (import.meta.webpackHot) {

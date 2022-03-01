@@ -1,15 +1,10 @@
-<template><h3 id="css-选择器-三大特性" tabindex="-1"><a class="header-anchor" href="#css-选择器-三大特性" aria-hidden="true">#</a> CSS 选择器( 三大特性 ) ?</h3>
-<blockquote>
-<p>权重等级 !important &gt; style &gt; id &gt; class &gt; tag</p>
-</blockquote>
+<template><h4 id="css-选择器-三大特性" tabindex="-1"><a class="header-anchor" href="#css-选择器-三大特性" aria-hidden="true">#</a> CSS 选择器( 三大特性 ) ?</h4>
 <ul>
 <li>Id 选择器</li>
 <li>类名选择器</li>
 <li>标签选择器</li>
 <li>伪类选择器 列如：last-child nth-child after before</li>
 </ul>
-<h3 id="重排-reflow-和-重绘-repaint-的理解" tabindex="-1"><a class="header-anchor" href="#重排-reflow-和-重绘-repaint-的理解" aria-hidden="true">#</a> 重排（reflow） 和 重绘（repaint） 的理解</h3>
-<p>以我的理解就是，顾名思意，重排就是重新排版页面，重绘就是重新绘制元素，那么什么时候会重新排版页面，很好理解，当然是页面结构改动的时候，比如说什么 margin，width，height。</p>
 <h3 id="bfc-机制-暂时理解不了" tabindex="-1"><a class="header-anchor" href="#bfc-机制-暂时理解不了" aria-hidden="true">#</a> BFC 机制 （暂时理解不了）</h3>
 <p>BFC 是英文缩写，翻译为“块级格式化上下文”
 翻译过来就相当于 css 盒模型的渲染规则
@@ -22,11 +17,11 @@
 盒模型的宽高会包含 border 和 padding</li>
 </ul>
 <h3 id="css-模块化开发-封装-scss-和-less-的使用" tabindex="-1"><a class="header-anchor" href="#css-模块化开发-封装-scss-和-less-的使用" aria-hidden="true">#</a> CSS 模块化开发(封装); SCSS 和 LESS 的使用</h3>
-<p>使静态语言拥有动态语言的能力 变量 函数等
+<p>\ 使静态语言拥有动态语言的能力 变量 函数等
 目前 css 本身也拥有变量能力
 通常将常用的变量以及类名通过全局文件封装起来</p>
 <h3 id="屏幕适配-以及-页面自适应" tabindex="-1"><a class="header-anchor" href="#屏幕适配-以及-页面自适应" aria-hidden="true">#</a> 屏幕适配 以及 页面自适应</h3>
-<p>关键字 媒体查询 @medio
+<p>\ 关键字 媒体查询 @medio
 你可以通过不同媒体填入不同的条件，从而改变不同的样式
 比如说 screen 屏幕 print 打印机 all 所有设备</p>
 <div class="language-css ext-css line-numbers-mode"><pre v-pre class="language-css"><code><span class="token comment">/**日常的简单使用 */</span>
@@ -64,7 +59,7 @@
 </tr>
 </tbody>
 </table>
-<p>trasition 过渡效果 第一个参数定义什么过渡 all 或者 width 等等
+<p>trasition 过渡效果
 trasition: 1s easy;</p>
 <h3 id="布局" tabindex="-1"><a class="header-anchor" href="#布局" aria-hidden="true">#</a> 布局</h3>
 <ul>
@@ -76,39 +71,6 @@ trasition: 1s easy;</p>
 </ul>
 <h3 id="背景补充知识" tabindex="-1"><a class="header-anchor" href="#背景补充知识" aria-hidden="true">#</a> 背景补充知识</h3>
 <p>background-attachment</p>
-<table>
-<thead>
-<tr>
-<th>值</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>scroll</td>
-<td>背景图片随着页面的滚动而滚动，这是默认的。</td>
-</tr>
-<tr>
-<td>fixed</td>
-<td>背景图片不会随着页面的滚动而滚动。</td>
-</tr>
-<tr>
-<td>local</td>
-<td>背景图片会随着元素内容的滚动而滚动。</td>
-</tr>
-<tr>
-<td>initial</td>
-<td>设置该属性的默认值。 阅读关于 initial 内容</td>
-</tr>
-<tr>
-<td>inherit</td>
-<td>指定 background-attachment 的设置应该从父元素继承。 阅读关于 inherit 内容</td>
-</tr>
-</tbody>
-</table>
 <h3 id="定位补充知识" tabindex="-1"><a class="header-anchor" href="#定位补充知识" aria-hidden="true">#</a> 定位补充知识</h3>
-<p>position： sticky; 粘性布局 兼容性不是特别好</p>
-<h3 id="其余属性" tabindex="-1"><a class="header-anchor" href="#其余属性" aria-hidden="true">#</a> 其余属性</h3>
-<div class="language-css ext-css line-numbers-mode"><pre v-pre class="language-css"><code><span class="token property">box-shadow</span><span class="token punctuation">:</span> offset-x offset-y 阴影的模糊半径 阴影扩展半径<span class="token punctuation">;</span>
-<span class="token property">backdrop-filter</span><span class="token punctuation">:</span> <span class="token function">blur</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> // 滤镜
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div></template>
+<p>position： sticky 粘性布局</p>
+</template>

@@ -1,47 +1,45 @@
 ### 变量数据类型及检测: 基本 + 引用
 
-- string
-- boolean
-- number
-- null
+- String
+- Boolean
+- Number
+- Null
 - undefined
-- object
-- array
+- Symbol
+- BigInt
+- Object
 
 ### 运算符: 算术 + 条件 + 逻辑 + 位 + 短路, 隐式转换等
-
--
-
-*
-
 - /
-  %
-  += -= \*= /= %=
-  \>
-  <
-  \>=
-  <=
-  =
-  ==
-  \===
-  &&
-  ||
-  \*\*
-  ? :
-  ?.
-  ??
-  100_000
-  for
-  for in
-  for of
-  if
-  while
-  switch
-  cash
-  brank
-  return
-  instanceof
-  typeof
+- %
+- ^
+- &
+- += -= \*= /= %=
+- \>
+- <
+- \>=
+- <=
+- =
+- ==
+- ===
+- &&
+- ||
+- \*\*
+- ? :
+- ?.
+- ??
+- 100_000
+- for
+- for in
+- for of
+- if
+- while
+- switch
+- cash
+- brank
+- return
+- instanceof
+- typeof
 
 ### 原型链
 

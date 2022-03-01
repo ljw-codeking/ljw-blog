@@ -1,23 +1,11 @@
 export const data = {
-  "key": "v-cb92f676",
-  "path": "/articles/css/",
+  "key": "v-884fd4bc",
+  "path": "/guide/css.html",
   "title": "",
   "lang": "en-US",
   "frontmatter": {},
   "excerpt": "",
   "headers": [
-    {
-      "level": 3,
-      "title": "CSS 选择器( 三大特性 ) ?",
-      "slug": "css-选择器-三大特性",
-      "children": []
-    },
-    {
-      "level": 3,
-      "title": "重排（reflow） 和 重绘（repaint） 的理解",
-      "slug": "重排-reflow-和-重绘-repaint-的理解",
-      "children": []
-    },
     {
       "level": 3,
       "title": "BFC 机制 （暂时理解不了）",
@@ -65,25 +53,19 @@ export const data = {
       "title": "定位补充知识",
       "slug": "定位补充知识",
       "children": []
-    },
-    {
-      "level": 3,
-      "title": "其余属性",
-      "slug": "其余属性",
-      "children": []
     }
   ],
   "git": {
-    "updatedTime": 1644825719000,
+    "updatedTime": 1639880135000,
     "contributors": [
       {
-        "name": "hx",
-        "email": "903320779@qq.com",
+        "name": "🏎",
+        "email": "oncwnuH-N9yj9bE86QwViOD3xRKw@git.weixin.qq.com",
         "commits": 1
       }
     ]
   },
-  "filePathRelative": "articles/css/README.md"
+  "filePathRelative": "guide/css.md"
 }
 
 if (import.meta.webpackHot) {
