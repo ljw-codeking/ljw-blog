@@ -1,31 +1,4 @@
 module.exports = {
-  "/life-essay/": [
-    {
-      text: "生活杂文",
-      children: [
-        {
-          text: "把博客从Hexo迁移至VuePress",
-          link: "/life-essay/把博客从Hexo迁移至VuePress.md",
-        },
-        {
-          text: "2020年总结与2021年计划",
-          link: "/life-essay/2020年总结与2021年计划.md",
-        },
-        {
-          text: "Chrome常用插件",
-          link: "/life-essay/Chrome常用插件.md",
-        },
-        {
-          text: "VSCode常用插件",
-          link: "/life-essay/VSCode常用插件.md",
-        },
-        {
-          text: "VScode常用快捷键",
-          link: "./VSCode常用快捷键.md",
-        },
-      ],
-    },
-  ],
   "/computer-base/": [
     {
       text: "数据结构",
@@ -34,68 +7,6 @@ module.exports = {
     {
       text: "算法",
       link: "/computer-base/算法.md",
-    },
-    {
-      text: "LeetCode",
-      link: "/computer-base/LeetCode/两数之和.md",
-
-      children: [
-        {
-          link: "/computer-base/LeetCode/只出现一次的数字",
-        },
-        {
-          text: "两数之和",
-          link: "/computer-base/LeetCode/两数之和.md",
-        },
-        {
-          text: "有效的括号",
-          link: "/computer-base/LeetCode/有效的括号.md",
-        },
-        {
-          text: "合并两个有序链表",
-          link: "/computer-base/LeetCode/合并两个有序链表.md",
-        },
-        {
-          text: "最大子序和",
-          link: "/computer-base/LeetCode/最大子序和.md",
-        },
-        {
-          text: "回文数",
-          link: "/computer-base/LeetCode/回文数.md",
-        },
-        {
-          text: "爬楼梯",
-          link: "/computer-base/LeetCode/爬楼梯.md",
-        },
-        {
-          text: "合并两个有序数组",
-          link: "/computer-base/LeetCode/合并两个有序数组.md",
-        },
-        {
-          text: "对称二叉树",
-          link: "/computer-base/LeetCode/对称二叉树.md",
-        },
-        {
-          text: "二叉树的最大深度",
-          link: "/computer-base/LeetCode/二叉树的最大深度.md",
-        },
-        {
-          text: "翻转二叉树",
-          link: "/computer-base/LeetCode/翻转二叉树.md",
-        },
-        {
-          text: "合并二叉树",
-          link: "/computer-base/LeetCode/合并二叉树.md",
-        },
-        {
-          text: "反转链表",
-          link: "/computer-base/LeetCode/反转链表.md",
-        },
-        {
-          text: "字符串相加",
-          link: "/computer-base/LeetCode/字符串相加.md",
-        },
-      ],
     },
     {
       text: "网络协议",
@@ -108,6 +19,28 @@ module.exports = {
     {
       text: "Git",
       link: "/computer-base/Git.md",
+    },
+    {
+      text: "SH脚本",
+      link: "/computer-base/SH脚本.md",
+    },
+    {
+      text: "beff",
+      link: "/computer-base/beff/",
+      children: [
+        {
+          text: "软件安装",
+          link: "/computer-base/beff/软件安装.md",
+        },
+        {
+          text: "软件配置",
+          link: "/computer-base/beff/软件配置.md",
+        },
+        {
+          text: "简单使用",
+          link: "/computer-base/beff/简单使用.md",
+        },
+      ],
     },
   ],
   "/articles/": [
@@ -275,8 +208,7 @@ module.exports = {
         },
         {
           text: "从前端的角度来梳理微信支付（小程序、H5、JSAPI）的流程",
-          link:
-            "/articles/WeApp/从前端的角度来梳理微信支付（小程序、H5、JSAPI）的流程.md",
+          link: "/articles/WeApp/从前端的角度来梳理微信支付（小程序、H5、JSAPI）的流程.md",
         },
         {
           text: "微信小程序用户授权之最佳实践",
@@ -288,8 +220,7 @@ module.exports = {
         },
         {
           text: "微信小程序动态加载swiper时不显示的问题（爬坑）",
-          link:
-            "/articles/WeApp/微信小程序动态加载swiper时不显示的问题（爬坑）.md",
+          link: "/articles/WeApp/微信小程序动态加载swiper时不显示的问题（爬坑）.md",
         },
         {
           text: "微信小程序授权登录弹框组件",
@@ -421,4 +352,10 @@ module.exports = {
       children: [],
     },
   ],
+  "/cli/": [
+    {
+      text: '打包工具原理',
+      link: '/cli/打包工具原理.md'
+    }
+  ]
 };

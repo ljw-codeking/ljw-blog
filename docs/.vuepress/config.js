@@ -19,8 +19,8 @@ module.exports = {
         link: "/computer-base/",
       },
       {
-        text: "生活杂文",
-        link: "/life-essay/",
+        text: "cli",
+        link: "/cli/",
       },
       {
         text: "关于",

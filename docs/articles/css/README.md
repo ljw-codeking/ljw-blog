@@ -89,3 +89,20 @@ position： sticky; 粘性布局 兼容性不是特别好
 box-shadow: offset-x offset-y 阴影的模糊半径 阴影扩展半径;
 backdrop-filter: blur(); // 滤镜
 ```
+
+### 自定义滚动条
+```css
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #1E3F20;
+  border-radius: 12px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #4A7856;
+  border-radius: 12px;
+}
+```
