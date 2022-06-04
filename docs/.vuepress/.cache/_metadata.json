@@ -1,35 +1,35 @@
 {
-  "hash": "65e32eff",
-  "browserHash": "9218e7ba",
+  "hash": "68feac2b",
+  "browserHash": "679ad89a",
   "optimized": {
     "vue": {
-      "file": "C:/Users/Administrator/Desktop/ljw-blog-master/ljw-blog-master/docs/.vuepress/.cache/vue.js",
-      "src": "C:/Users/Administrator/Desktop/ljw-blog-master/ljw-blog-master/node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js",
+      "file": "C:/Users/86155/Desktop/ljw-blog/docs/.vuepress/.cache/vue.js",
+      "src": "C:/Users/86155/Desktop/ljw-blog/node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js",
       "needsInterop": false
     },
     "vue-router": {
-      "file": "C:/Users/Administrator/Desktop/ljw-blog-master/ljw-blog-master/docs/.vuepress/.cache/vue-router.js",
-      "src": "C:/Users/Administrator/Desktop/ljw-blog-master/ljw-blog-master/node_modules/vue-router/dist/vue-router.esm-bundler.js",
+      "file": "C:/Users/86155/Desktop/ljw-blog/docs/.vuepress/.cache/vue-router.js",
+      "src": "C:/Users/86155/Desktop/ljw-blog/node_modules/vue-router/dist/vue-router.esm-bundler.js",
       "needsInterop": false
     },
     "@vue/devtools-api": {
-      "file": "C:/Users/Administrator/Desktop/ljw-blog-master/ljw-blog-master/docs/.vuepress/.cache/@vue_devtools-api.js",
-      "src": "C:/Users/Administrator/Desktop/ljw-blog-master/ljw-blog-master/node_modules/@vue/devtools-api/lib/esm/index.js",
+      "file": "C:/Users/86155/Desktop/ljw-blog/docs/.vuepress/.cache/@vue_devtools-api.js",
+      "src": "C:/Users/86155/Desktop/ljw-blog/node_modules/@vue/devtools-api/lib/esm/index.js",
       "needsInterop": false
     },
     "@vueuse/core": {
-      "file": "C:/Users/Administrator/Desktop/ljw-blog-master/ljw-blog-master/docs/.vuepress/.cache/@vueuse_core.js",
-      "src": "C:/Users/Administrator/Desktop/ljw-blog-master/ljw-blog-master/node_modules/@vueuse/core/index.mjs",
+      "file": "C:/Users/86155/Desktop/ljw-blog/docs/.vuepress/.cache/@vueuse_core.js",
+      "src": "C:/Users/86155/Desktop/ljw-blog/node_modules/@vueuse/core/index.mjs",
       "needsInterop": false
     },
     "nprogress": {
-      "file": "C:/Users/Administrator/Desktop/ljw-blog-master/ljw-blog-master/docs/.vuepress/.cache/nprogress.js",
-      "src": "C:/Users/Administrator/Desktop/ljw-blog-master/ljw-blog-master/node_modules/nprogress/nprogress.js",
+      "file": "C:/Users/86155/Desktop/ljw-blog/docs/.vuepress/.cache/nprogress.js",
+      "src": "C:/Users/86155/Desktop/ljw-blog/node_modules/nprogress/nprogress.js",
       "needsInterop": true
     },
     "@vuepress/shared": {
-      "file": "C:/Users/Administrator/Desktop/ljw-blog-master/ljw-blog-master/docs/.vuepress/.cache/@vuepress_shared.js",
-      "src": "C:/Users/Administrator/Desktop/ljw-blog-master/ljw-blog-master/node_modules/@vuepress/shared/lib/esm/index.js",
+      "file": "C:/Users/86155/Desktop/ljw-blog/docs/.vuepress/.cache/@vuepress_shared.js",
+      "src": "C:/Users/86155/Desktop/ljw-blog/node_modules/@vuepress/shared/lib/esm/index.js",
       "needsInterop": false
     }
   }

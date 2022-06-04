@@ -71,19 +71,25 @@ export const data = {
       "title": "其余属性",
       "slug": "其余属性",
       "children": []
+    },
+    {
+      "level": 3,
+      "title": "自定义滚动条",
+      "slug": "自定义滚动条",
+      "children": []
     }
   ],
   "git": {
-    "updatedTime": 1646127376000,
+    "updatedTime": 1648708959000,
     "contributors": [
-      {
-        "name": "hx",
-        "email": "903320779@qq.com",
-        "commits": 1
-      },
       {
         "name": "ljw",
         "email": "liujunweidyy@163.com",
+        "commits": 2
+      },
+      {
+        "name": "hx",
+        "email": "903320779@qq.com",
         "commits": 1
       }
     ]

@@ -111,4 +111,18 @@ trasition: 1s easy;</p>
 <h3 id="其余属性" tabindex="-1"><a class="header-anchor" href="#其余属性" aria-hidden="true">#</a> 其余属性</h3>
 <div class="language-css ext-css line-numbers-mode"><pre v-pre class="language-css"><code><span class="token property">box-shadow</span><span class="token punctuation">:</span> offset-x offset-y 阴影的模糊半径 阴影扩展半径<span class="token punctuation">;</span>
 <span class="token property">backdrop-filter</span><span class="token punctuation">:</span> <span class="token function">blur</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> // 滤镜
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div></template>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><h3 id="自定义滚动条" tabindex="-1"><a class="header-anchor" href="#自定义滚动条" aria-hidden="true">#</a> 自定义滚动条</h3>
+<div class="language-css ext-css line-numbers-mode"><pre v-pre class="language-css"><code><span class="token selector">.custom-scrollbar::-webkit-scrollbar</span> <span class="token punctuation">{</span>
+  <span class="token property">width</span><span class="token punctuation">:</span> 8px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">.custom-scrollbar::-webkit-scrollbar-track</span> <span class="token punctuation">{</span>
+  <span class="token property">background</span><span class="token punctuation">:</span> #1E3F20<span class="token punctuation">;</span>
+  <span class="token property">border-radius</span><span class="token punctuation">:</span> 12px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">.custom-scrollbar::-webkit-scrollbar-thumb</span> <span class="token punctuation">{</span>
+  <span class="token property">background</span><span class="token punctuation">:</span> #4A7856<span class="token punctuation">;</span>
+  <span class="token property">border-radius</span><span class="token punctuation">:</span> 12px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br></div></div></template>

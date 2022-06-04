@@ -23,6 +23,10 @@ module.exports = {
         link: "/cli/",
       },
       {
+        text: "node",
+        link: "/node/",
+      },
+      {
         text: "关于",
         link: "/about/",
       },

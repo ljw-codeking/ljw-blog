@@ -354,8 +354,24 @@ module.exports = {
   ],
   "/cli/": [
     {
-      text: '打包工具原理',
-      link: '/cli/打包工具原理.md'
-    }
-  ]
+      text: "打包工具原理",
+      link: "/cli/打包工具原理.md",
+    },
+  ],
+  "/node/": [
+    {
+      text: "NestJs",
+      link: "/node/nest/Nest.md",
+    },
+    {
+      text: "服务器配置",
+      link: "/node/config/",
+      children: [
+        {
+          text: "Nginx",
+          link: "/node/config/nginx.md",
+        },
+      ],
+    },
+  ],
 };

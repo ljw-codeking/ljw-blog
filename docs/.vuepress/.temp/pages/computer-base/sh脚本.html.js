@@ -182,8 +182,14 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 1648708959000,
+    "contributors": [
+      {
+        "name": "ljw",
+        "email": "liujunweidyy@163.com",
+        "commits": 1
+      }
+    ]
   },
   "filePathRelative": "computer-base/sh脚本.md"
 }
