@@ -25,6 +25,7 @@
 <p>使静态语言拥有动态语言的能力 变量 函数等
 目前 css 本身也拥有变量能力
 通常将常用的变量以及类名通过全局文件封装起来</p>
+<h3 id="css变量" tabindex="-1"><a class="header-anchor" href="#css变量" aria-hidden="true">#</a> css变量</h3>
 <h3 id="屏幕适配-以及-页面自适应" tabindex="-1"><a class="header-anchor" href="#屏幕适配-以及-页面自适应" aria-hidden="true">#</a> 屏幕适配 以及 页面自适应</h3>
 <p>关键字 媒体查询 @medio
 你可以通过不同媒体填入不同的条件，从而改变不同的样式

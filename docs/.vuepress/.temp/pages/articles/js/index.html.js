@@ -74,7 +74,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1646127376000,
+    "updatedTime": 1654315474000,
     "contributors": [
       {
         "name": "hx",
@@ -84,6 +84,11 @@ export const data = {
       {
         "name": "ljw",
         "email": "liujunweidyy@163.com",
+        "commits": 1
+      },
+      {
+        "name": "🏎",
+        "email": "oncwnuH-N9yj9bE86QwViOD3xRKw@git.weixin.qq.com",
         "commits": 1
       }
     ]

@@ -19,8 +19,8 @@ const routeItems = [
   ["v-5150440a","/guide/%E9%A1%B9%E7%9B%AE.html",{"title":""},["/guide/项目.html","/guide/%E9%A1%B9%E7%9B%AE","/guide/项目.md","/guide/%E9%A1%B9%E7%9B%AE.md"]],
   ["v-15051314","/node/",{"title":""},["/node/index.html","/node/README.md"]],
   ["v-cb92f676","/articles/css/",{"title":""},["/articles/css/index.html","/articles/css/README.md"]],
+  ["v-a63e226a","/articles/html/",{"title":""},["/articles/html/index.html","/articles/html/README.md"]],
   ["v-0d3baaad","/articles/js/",{"title":""},["/articles/js/index.html","/articles/js/README.md"]],
-  ["v-a599d958","/articles/node/",{"title":""},["/articles/node/index.html","/articles/node/README.md"]],
   ["v-0d3bd037","/articles/ts/",{"title":""},["/articles/ts/index.html","/articles/ts/README.md"]],
   ["v-cb81a4bc","/articles/vue/",{"title":""},["/articles/vue/index.html","/articles/vue/README.md"]],
   ["v-1c4d6cbb","/computer-base/beff/%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8.html",{"title":"beef的简单使用"},["/computer-base/beff/简单使用.html","/computer-base/beff/%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8","/computer-base/beff/简单使用.md","/computer-base/beff/%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8.md"]],
@@ -29,6 +29,7 @@ const routeItems = [
   ["v-731c1450","/node/config/nginx.html",{"title":""},["/node/config/nginx","/node/config/nginx.md"]],
   ["v-37f7f399","/node/config/",{"title":""},["/node/config/index.html","/node/config/README.md"]],
   ["v-57fcee7e","/node/nest/Nest.html",{"title":""},["/node/nest/Nest","/node/nest/Nest.md"]],
+  ["v-7d1c494b","/node/nest/Nest%E9%85%8D%E7%BD%AENginx.html",{"title":""},["/node/nest/Nest配置Nginx.html","/node/nest/Nest%E9%85%8D%E7%BD%AENginx","/node/nest/Nest配置Nginx.md","/node/nest/Nest%E9%85%8D%E7%BD%AENginx.md"]],
   ["v-3706649a","/404.html",{"title":""},["/404"]],
 ]
 

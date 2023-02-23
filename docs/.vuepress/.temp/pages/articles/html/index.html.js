@@ -1,6 +1,6 @@
 export const data = {
-  "key": "v-37f7f399",
-  "path": "/node/config/",
+  "key": "v-a63e226a",
+  "path": "/articles/html/",
   "title": "",
   "lang": "en-US",
   "frontmatter": {},
@@ -8,22 +8,28 @@ export const data = {
   "headers": [
     {
       "level": 3,
-      "title": "服务器配置",
-      "slug": "服务器配置",
+      "title": "语义化标签",
+      "slug": "语义化标签",
+      "children": []
+    },
+    {
+      "level": 3,
+      "title": "特性",
+      "slug": "特性",
+      "children": []
+    },
+    {
+      "level": 3,
+      "title": "H5新增API",
+      "slug": "h5新增api",
       "children": []
     }
   ],
   "git": {
-    "updatedTime": 1654315474000,
-    "contributors": [
-      {
-        "name": "🏎",
-        "email": "oncwnuH-N9yj9bE86QwViOD3xRKw@git.weixin.qq.com",
-        "commits": 1
-      }
-    ]
+    "updatedTime": null,
+    "contributors": []
   },
-  "filePathRelative": "node/config/README.md"
+  "filePathRelative": "articles/html/README.md"
 }
 
 if (import.meta.webpackHot) {

@@ -43,7 +43,7 @@
 
 ### 原型链
 
-> > 原型的主要作用 节省内存不用在每个实例对象上进行创建而是通过 **proto** 往上查找
+> 原型的主要作用 节省内存不用在每个实例对象上进行创建而是通过 **proto** 往上查找
 
 每个构建函数都拥有一个 prototype 属性
 每个实例对象都拥有一个 **proto** 属性指向 构建函数的 prototype 属性
@@ -64,67 +64,67 @@
 
 ### JS 执行机制
 
-从上往下执行
-首先变量提升
-其次函数提升
-同步代码
-宏任务
+从上往下执行 -> 
+首先变量提升 -> 
+其次函数提升 -> 
+同步代码 -> 
+宏任务 -> 
 微任务
 
 ### ES6
 
-let 定义一个局部变量
-const 定义一个常量 不能更改器地址
-let const 不存在变量提升
-...展开符
-Set 类集合类
-Map 哈希对象
-Symbol 唯一值
-箭头函数 this 指向上层作用域 普通函数 this 指向调用者
-Promise 包含 reject、resolve、all 这些方法 then、catch、finally 方法
-Class 类
-严格模式
-Proxy
-for of
-Reflect 顶级对象
-async await
-import export
-try、catch、finally
-变量解构
-等等
+1. let 定义一个局部变量、const 定义一个常量 不能更改器地址、let const 不存在变量提升
+2. ...展开符
+3. Set 类集合类
+4. Map 哈希对象
+5. Symbol 唯一值
+6. 箭头函数 this 指向上层作用域 普通函数 this 指向调用者
+7. Promise 包含 reject、resolve、all 这些方法 then、catch、finally 方法
+8. Class 类
+9. 严格模式
+10. Proxy
+11. for of
+12. Reflect 顶级对象
+13. async await
+14. import export
+15. try、catch、finally
+16. 变量解构
+等等...
 
 ### 数组的操作方法
 
-indexOf 从头查找数组
-lastindexOf 从尾部查找数组
-map 处理数组
-filter 找出符合条件的元素
-some 返回一个布尔值 找到一个就返回
-every 全部为 true 返回 true
-forEach 遍历数组
-find 查找数组
-findIndex 查找目标值在数组中的索引
-from
-flot 拉平二维数组
-push 往数组后面放入一个元素并返回
-pop 删除并返回数组最后一个元素
-shift 往数组前面放入一个元素并返回
-unshift 删除并返回数组的第一个元素
-concat 合并数组
-join 根据 xx 将数组切割成字符串
-sort 排序
-splice 将数组中的某个索引值替换或删除
-reverse 数组翻转
-fill 重复生成 （如果是复杂数据类型将指向同一片内存地址）
-reduce 计算函数
+1. indexOf 从头查找数组
+2. lastindexOf 从尾部查找数组
+3. map 处理数组
+4. filter 找出符合条件的元素
+5. some 返回一个布尔值 找到一个就返回
+6. every 全部为 true 返回 true
+7. forEach 遍历数组
+8. find 查找数组
+9. findIndex 查找目标值在数组中的索引
+10. from 创建数组
+11. flot 拉平二维数组
+12. push 往数组后面放入一个元素并返回
+13. pop 删除并返回数组最后一个元素
+14. shift 往数组前面放入一个元素并返回
+15. unshift 删除并返回数组的第一个元素
+16. concat 合并数组
+17. join 根据 xx 将数组切割成字符串
+18. sort 排序
+19. splice 将数组中的某个索引值替换或删除
+20. reverse 数组翻转
+21. fill 重复生成 （如果是复杂数据类型将指向同一片内存地址）
+22. reduce 计算函数
 
 ### 对象的操作方法
 
-Object.keys() 获取对象所有键名组成的数组
-Object.values() 获取对象值所组成的数组
-Object.assign() 合并对象 注意: 这是浅拷贝
-
-Object.create(proto,[propertiesObject(就是 defineProperties 的参数属性)](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperties)) 创建一个新对象，使用现有对象来提供新对象的 **proto**
+1. Object.keys() 获取对象所有键名组成的数组
+2. Object.values() 获取对象值所组成的数组
+3. Object.assign() 合并对象 注意: 这是浅拷贝
+4. Object.create(proto,[propertiesObject(就是 defineProperties 的参数属性)](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperties)) 创建一个新对象，使用现有对象来提供新对象的 **proto**
+5. Object.entries() 返回 [[key,value]] 
+6. Object.freeze() 返回一个不可操作的对象
+7. Object.values()
 
 ### 函数的操作方法
 

@@ -38,6 +38,12 @@ export const data = {
     },
     {
       "level": 3,
+      "title": "css变量",
+      "slug": "css变量",
+      "children": []
+    },
+    {
+      "level": 3,
       "title": "屏幕适配 以及 页面自适应",
       "slug": "屏幕适配-以及-页面自适应",
       "children": []

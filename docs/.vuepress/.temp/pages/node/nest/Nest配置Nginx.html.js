@@ -1,31 +1,11 @@
 export const data = {
-  "key": "v-57fcee7e",
-  "path": "/node/nest/Nest.html",
+  "key": "v-7d1c494b",
+  "path": "/node/nest/Nest%E9%85%8D%E7%BD%AENginx.html",
   "title": "",
   "lang": "en-US",
   "frontmatter": {},
   "excerpt": "",
-  "headers": [
-    {
-      "level": 2,
-      "title": "Nest 笔记",
-      "slug": "nest-笔记",
-      "children": [
-        {
-          "level": 3,
-          "title": "Nest 介绍",
-          "slug": "nest-介绍",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "MVC、IOC、AOP",
-          "slug": "mvc、ioc、aop",
-          "children": []
-        }
-      ]
-    }
-  ],
+  "headers": [],
   "git": {
     "updatedTime": 1654315474000,
     "contributors": [
@@ -36,7 +16,7 @@ export const data = {
       }
     ]
   },
-  "filePathRelative": "node/nest/Nest.md"
+  "filePathRelative": "node/nest/Nest配置Nginx.md"
 }
 
 if (import.meta.webpackHot) {

@@ -14,8 +14,14 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 1654315474000,
+    "contributors": [
+      {
+        "name": "🏎",
+        "email": "oncwnuH-N9yj9bE86QwViOD3xRKw@git.weixin.qq.com",
+        "commits": 1
+      }
+    ]
   },
   "filePathRelative": "node/README.md"
 }
