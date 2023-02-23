@@ -86,12 +86,12 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1648708959000,
+    "updatedTime": 1677120837000,
     "contributors": [
       {
         "name": "ljw",
         "email": "liujunweidyy@163.com",
-        "commits": 2
+        "commits": 3
       },
       {
         "name": "hx",
@@ -101,17 +101,4 @@ export const data = {
     ]
   },
   "filePathRelative": "articles/css/README.md"
-}
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
 }

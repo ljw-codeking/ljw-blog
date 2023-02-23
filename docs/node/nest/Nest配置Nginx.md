@@ -33,7 +33,7 @@ server {
 
 ```
 
-![image-20220331212159682](C:\Users\86155\AppData\Roaming\Typora\typora-user-images\image-20220331212159682.png)
+<!-- ![image-20220331212159682](C:\Users\86155\AppData\Roaming\Typora\typora-user-images\image-20220331212159682.png) -->
 
 我们的nginx配置也可以在这文件下进行配置
 

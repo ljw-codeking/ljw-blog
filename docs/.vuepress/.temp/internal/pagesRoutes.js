@@ -3,8 +3,6 @@ import { Vuepress } from '@vuepress/client/lib/components/Vuepress'
 const routeItems = [
   ["v-8daa1a0e","/",{"title":"快点开始写博客吧"},["/index.html","/README.md"]],
   ["v-1fcdcab9","/articles/",{"title":""},["/articles/index.html","/articles/README.md"]],
-  ["v-74457188","/cli/",{"title":""},["/cli/index.html","/cli/README.md"]],
-  ["v-0c1ecdd2","/cli/%E6%89%93%E5%8C%85%E5%B7%A5%E5%85%B7%E5%8E%9F%E7%90%86.html",{"title":"实现小型打包工具"},["/cli/打包工具原理.html","/cli/%E6%89%93%E5%8C%85%E5%B7%A5%E5%85%B7%E5%8E%9F%E7%90%86","/cli/打包工具原理.md","/cli/%E6%89%93%E5%8C%85%E5%B7%A5%E5%85%B7%E5%8E%9F%E7%90%86.md"]],
   ["v-5a7304ec","/computer-base/Git.html",{"title":""},["/computer-base/Git","/computer-base/Git.md"]],
   ["v-18193185","/computer-base/",{"title":""},["/computer-base/index.html","/computer-base/README.md"]],
   ["v-5818ff35","/computer-base/sh%E8%84%9A%E6%9C%AC.html",{"title":"Shell脚本"},["/computer-base/sh脚本.html","/computer-base/sh%E8%84%9A%E6%9C%AC","/computer-base/sh脚本.md","/computer-base/sh%E8%84%9A%E6%9C%AC.md"]],
@@ -12,6 +10,8 @@ const routeItems = [
   ["v-6295d704","/computer-base/%E7%AE%97%E6%B3%95.html",{"title":""},["/computer-base/算法.html","/computer-base/%E7%AE%97%E6%B3%95","/computer-base/算法.md","/computer-base/%E7%AE%97%E6%B3%95.md"]],
   ["v-97937702","/computer-base/%E7%BD%91%E7%BB%9C%E5%8D%8F%E8%AE%AE.html",{"title":""},["/computer-base/网络协议.html","/computer-base/%E7%BD%91%E7%BB%9C%E5%8D%8F%E8%AE%AE","/computer-base/网络协议.md","/computer-base/%E7%BD%91%E7%BB%9C%E5%8D%8F%E8%AE%AE.md"]],
   ["v-7825b054","/computer-base/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F.html",{"title":""},["/computer-base/设计模式.html","/computer-base/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F","/computer-base/设计模式.md","/computer-base/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F.md"]],
+  ["v-74457188","/cli/",{"title":""},["/cli/index.html","/cli/README.md"]],
+  ["v-0c1ecdd2","/cli/%E6%89%93%E5%8C%85%E5%B7%A5%E5%85%B7%E5%8E%9F%E7%90%86.html",{"title":"实现小型打包工具"},["/cli/打包工具原理.html","/cli/%E6%89%93%E5%8C%85%E5%B7%A5%E5%85%B7%E5%8E%9F%E7%90%86","/cli/打包工具原理.md","/cli/%E6%89%93%E5%8C%85%E5%B7%A5%E5%85%B7%E5%8E%9F%E7%90%86.md"]],
   ["v-884fd4bc","/guide/css.html",{"title":""},["/guide/css","/guide/css.md"]],
   ["v-e5218278","/guide/js.html",{"title":"/%+= -= *= /= %=><>=<="},["/guide/js","/guide/js.md"]],
   ["v-fffb8e28","/guide/",{"title":""},["/guide/index.html","/guide/README.md"]],

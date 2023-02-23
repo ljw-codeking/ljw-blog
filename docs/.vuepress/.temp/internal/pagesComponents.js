@@ -5,10 +5,6 @@ export const pagesComponents = {
   "v-8daa1a0e": defineAsyncComponent(() => import(/* webpackChunkName: "v-8daa1a0e" */"C:/Users/user/Desktop/my_company/ljw-blog/docs/.vuepress/.temp/pages/index.html.vue")),
   // path: /articles/
   "v-1fcdcab9": defineAsyncComponent(() => import(/* webpackChunkName: "v-1fcdcab9" */"C:/Users/user/Desktop/my_company/ljw-blog/docs/.vuepress/.temp/pages/articles/index.html.vue")),
-  // path: /cli/
-  "v-74457188": defineAsyncComponent(() => import(/* webpackChunkName: "v-74457188" */"C:/Users/user/Desktop/my_company/ljw-blog/docs/.vuepress/.temp/pages/cli/index.html.vue")),
-  // path: /cli/%E6%89%93%E5%8C%85%E5%B7%A5%E5%85%B7%E5%8E%9F%E7%90%86.html
-  "v-0c1ecdd2": defineAsyncComponent(() => import(/* webpackChunkName: "v-0c1ecdd2" */"C:/Users/user/Desktop/my_company/ljw-blog/docs/.vuepress/.temp/pages/cli/打包工具原理.html.vue")),
   // path: /computer-base/Git.html
   "v-5a7304ec": defineAsyncComponent(() => import(/* webpackChunkName: "v-5a7304ec" */"C:/Users/user/Desktop/my_company/ljw-blog/docs/.vuepress/.temp/pages/computer-base/Git.html.vue")),
   // path: /computer-base/
@@ -23,6 +19,10 @@ export const pagesComponents = {
   "v-97937702": defineAsyncComponent(() => import(/* webpackChunkName: "v-97937702" */"C:/Users/user/Desktop/my_company/ljw-blog/docs/.vuepress/.temp/pages/computer-base/网络协议.html.vue")),
   // path: /computer-base/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F.html
   "v-7825b054": defineAsyncComponent(() => import(/* webpackChunkName: "v-7825b054" */"C:/Users/user/Desktop/my_company/ljw-blog/docs/.vuepress/.temp/pages/computer-base/设计模式.html.vue")),
+  // path: /cli/
+  "v-74457188": defineAsyncComponent(() => import(/* webpackChunkName: "v-74457188" */"C:/Users/user/Desktop/my_company/ljw-blog/docs/.vuepress/.temp/pages/cli/index.html.vue")),
+  // path: /cli/%E6%89%93%E5%8C%85%E5%B7%A5%E5%85%B7%E5%8E%9F%E7%90%86.html
+  "v-0c1ecdd2": defineAsyncComponent(() => import(/* webpackChunkName: "v-0c1ecdd2" */"C:/Users/user/Desktop/my_company/ljw-blog/docs/.vuepress/.temp/pages/cli/打包工具原理.html.vue")),
   // path: /guide/css.html
   "v-884fd4bc": defineAsyncComponent(() => import(/* webpackChunkName: "v-884fd4bc" */"C:/Users/user/Desktop/my_company/ljw-blog/docs/.vuepress/.temp/pages/guide/css.html.vue")),
   // path: /guide/js.html

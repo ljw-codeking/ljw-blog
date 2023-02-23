@@ -7,27 +7,19 @@ export const data = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "updatedTime": 1644825719000,
+    "updatedTime": 1677120837000,
     "contributors": [
       {
         "name": "hx",
         "email": "903320779@qq.com",
         "commits": 1
+      },
+      {
+        "name": "ljw",
+        "email": "liujunweidyy@163.com",
+        "commits": 1
       }
     ]
   },
   "filePathRelative": "articles/ts/README.md"
-}
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
 }
